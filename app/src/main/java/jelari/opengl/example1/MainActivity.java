@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
         myGLRenderer rendererObj = new myGLRenderer();
         mGLSurfaceView.setRenderer(rendererObj);
-        rendererObj.setup();
+
 
         //mGLSurfaceView.setRenderMode(GLSurfaceView.RENDERMODE_CONTINUOUSLY);
 

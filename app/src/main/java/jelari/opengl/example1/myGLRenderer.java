@@ -75,43 +75,6 @@ public class myGLRenderer implements GLSurfaceView.Renderer {
                         "}";
 
 
-        public void  setup() {
-
-//               int vShaderObj;
-//               vShaderObj = GLES20.glCreateShader(GLES20.GL_VERTEX_SHADER);
-//               GLES20.glShaderSource(vShaderObj, vertexShaderSource);
-//               GLES20.glCompileShader(vShaderObj);
-//
-//               int fShaderObj;
-//               fShaderObj = GLES20.glCreateShader(GLES20.GL_FRAGMENT_SHADER);
-//               GLES20.glShaderSource(fShaderObj, fragmentShaderSource);
-//               GLES20.glCompileShader(fShaderObj);
-//
-//               mProgram = GLES20.glCreateProgram();
-//               GLES20.glAttachShader(mProgram, vShaderObj);
-//               GLES20.glLinkProgram(mProgram);
-//
-//            // Lets create Native Memory for GPU.
-//            nativeBufferVertices = ByteBuffer.allocateDirect(vertices.length * 4).order(ByteOrder.nativeOrder()).asFloatBuffer();
-//            nativeBufferVertices.put(vertices);
-//            nativeBufferVertices.position(0);
-//
-//            // drawingOrder Buffer
-//
-//            nativedrawingListBuffer = ByteBuffer.allocateDirect(drawingOrder.length * 2).order(ByteOrder.nativeOrder()).asShortBuffer();
-//            nativedrawingListBuffer.put(drawingOrder);
-//            nativedrawingListBuffer.position(0);
-//
-
-
-
-
-        }
-
-
-
-
-
 
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
